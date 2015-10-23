@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CakeApp</string>
+
+    <string name="navigation_drawer_open">Abrir Menu de Navegação</string>
+    <string name="navigation_drawer_close">Fechar Menu de Navegação</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="txtSaudacao">Que tal um saboroso bolo hoje?</string>
+    <string name="txtSloganHelper">app.cake.com.br</string>
+    <string name="txtSlogan">Comprar bolos com agilidade</string>
+    <string name="txtIcone">ícone do CakeApp</string>
+
+</resources>

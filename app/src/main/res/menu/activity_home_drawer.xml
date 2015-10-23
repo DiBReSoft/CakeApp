@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_listBolos"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Lista de Bolos" />
+        <item
+            android:id="@+id/nav_listPreferidos"
+            android:icon="@android:drawable/btn_star_big_on"
+            android:title="Preferidos da Galera" />
+    </group>
+
+    <item android:title="Conta Pessoal">
+        <menu>
+            <item
+                android:id="@+id/nav_encomendas"
+                android:icon="@android:drawable/ic_input_get"
+                android:title="Suas encomendas" />
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@android:drawable/ic_menu_crop"
+                android:title="Seu Perfil"
+                android:enabled="false" />
+        </menu>
+    </item>
+
+    <item android:title="Outros">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@android:drawable/ic_menu_camera"
+                android:title="Enviar feedback do bolo recebido"
+                android:enabled="false" />
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Configurações"
+                android:enabled="false" />
+        </menu>
+    </item>
+
+</menu>
