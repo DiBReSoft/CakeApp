@@ -25,7 +25,7 @@
         android:id="@+id/listBolos"
         android:layout_below="@+id/txtSaudacao"
         android:layout_alignParentEnd="false"
-        android:divider="@android:color/holo_orange_light"
+        android:divider="#ffd698"
         android:dividerHeight="0.25sp"
         android:drawSelectorOnTop="false"
         android:clickable="true"
@@ -38,7 +38,7 @@
         android:layout_alignWithParentIfMissing="false"
         android:layout_marginLeft="-15sp"
         android:layout_marginRight="-15sp"
-        android:layout_marginTop="5sp"
+        android:layout_marginTop="15sp"
         android:layout_marginBottom="5sp"
         android:choiceMode="singleChoice" />
 </RelativeLayout>

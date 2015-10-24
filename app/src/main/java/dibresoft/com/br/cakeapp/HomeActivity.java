@@ -14,6 +14,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +38,31 @@ public class HomeActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        ListView listView = (ListView) findViewById(R.id.listBolos);
+
+        String[] values = new String[] {
+                "Abacaxi",
+                "Alpino",
+                "Brigadeiro com Granulado",
+                "Coroa de Morango",
+                "Crocante",
+                "Chocolate",
+                "Chocolate com Morangos",
+                "Chocolate com Côco",
+                "Floresta Negra",
+                "Limão",
+                "Morango",
+                "Ouro Branco",
+                "Prestígio",
+                "Trufado Branco com Morango"
+        };
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+                this, android.R.layout.simple_list_item_1, android.R.id.text1, values
+        );
+
+        listView.setAdapter(adapter);
     }
 
     @Override
@@ -77,8 +104,7 @@ public class HomeActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_listBolos) {
-            List<String> telaBolos = new ArrayList<>();
-            telaBolos.add("Oi");
+
             System.out.println("Deve gerar a lista de itens na tela.");
         } else if (id == R.id.nav_listPreferidos) {
 

@@ -20,23 +20,27 @@
         android:contentDescription="@string/txtIcone"
         android:src="@mipmap/ic_launcher"
         android:scaleType="fitStart"
-        android:layout_marginTop="15sp"
+        android:layout_marginTop="25sp"
         android:layout_marginBottom="-15sp"
         android:layout_marginLeft="-5sp" />
 
-    <TextView android:layout_width="match_parent" android:layout_height="35dp"
-        android:paddingTop="@dimen/nav_header_vertical_spacing" android:text="@string/txtSlogan"
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="@string/txtSlogan"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:id="@+id/txtSlogan"
         android:textSize="16sp"
         android:textIsSelectable="false"
         android:textColor="#ffffff"
-        android:layout_weight="0.15" />
+        android:layout_weight="0.15"
+        android:layout_marginTop="20sp"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp" />
 
-    <TextView android:layout_width="wrap_content" android:layout_height="30dp"
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:text="@string/txtSloganHelper" android:id="@+id/textView"
         android:textColor="#c8ffffff"
         android:textSize="15sp"
-        android:layout_weight="0.50" />
+        android:paddingTop="2.5sp"
+        android:paddingBottom="2.5sp" />
 
 </LinearLayout>

@@ -9,5 +9,7 @@
     <string name="txtSloganHelper">app.cake.com.br</string>
     <string name="txtSlogan">Comprar bolos com agilidade</string>
     <string name="txtIcone">ícone do CakeApp</string>
+    <string name="title_activity_bolos">BolosActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>
